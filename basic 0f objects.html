@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let students=[
+            {name:'john',age:17},
+            {name:'jane',age:19},
+            {name:'jack',age:18},
+        ];
+        let studentsWithIsAdult=students.map(student => {
+            return {
+            
+                studentisadult: (student.age >=18)
+            };
+        });
+        console.log(studentWithIsAdult);
+    </script>
+</body>
+</html>

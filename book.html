@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const books = [
+        { title: "book A", author: "AUTHORA1" },
+        { title: "book B", author: "AUTHORA2" },
+        { title: "book C", author: "AUTHORA3" },
+      ];
+      let newarr = prompt("enter a book name");
+      let index = books.findIndex((g)=>(g.title==newarr));
+      console.log(index);
+    </script>
+  </body>
+</html>

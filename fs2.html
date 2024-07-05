@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let students=[
+    {name:'john',age:17,},
+    {name:'jane',age:18,},
+    {name:'jack',age:19,},
+    ];
+ let newarr=students.map((a)=>{
+    return{
+
+        'name':a.name,
+        'age':a.age,
+        'adult':a.age>18
+    };
+})
+console.log(newarr);
+    </script>    
+</body>
+</html>
